@@ -42,7 +42,7 @@ void RegulateArray(int[,] numbers)
 
             for(int a = 0 ; a < culumns - 1; a++)
             {
-                if (numbers[i, a] > numbers[i, a + 1])
+                if (numbers[i, a] < numbers[i, a + 1])
                 {
                     (numbers[i, a], numbers[i, a + 1]) = (numbers[i, a + 1], numbers[i, a]);
                 }
