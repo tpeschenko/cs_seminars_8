@@ -50,7 +50,7 @@ void PrintArray(int[,] numbers)
     {
         for(int j = 0; j < columns; j++)
         {
-            Console.Write(numbers[i, j] + "   ");
+            Console.Write($"{numbers[i,j]:00} ");
         }
         Console.WriteLine(""); 
     }
